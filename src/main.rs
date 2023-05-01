@@ -19,7 +19,6 @@ mod utils {
     pub mod webhook;
 }
 
-
 #[tokio::main]
 async fn main() {
     let database = connection::create_client().await.unwrap();
